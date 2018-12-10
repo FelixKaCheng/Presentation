@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.header{width: 90%;
+  height: 3em;
+  border: solid;
+  font-size: 25px;
+  padding-top: 1em;
+  box-shadow: 5px 5px 5px 5px;
+  margin-bottom: 1em;
+  background-color: orange;
+
+}
+
+.home-container {
+/* border: solid red; */
+  width: 100%;
+  height: 46em;
+}
+
+.left{
+  width: 30%;
+  height: 45em;
+  /* border: solid green; */
+  float:left;
+  /* margin-right: .2em; */
+}
+
+.nav{
+  width: 100%;
+  height: 7em;
+  border: solid #148F77;
+  font-size: 1.5em;
+  box-shadow: -5px -5px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #dbbeff;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.footer li {
+  list-style: none;
+}
+
+a:hover{background-color: #64B5F6; color:#B2EBF2; }
+
+.nav a {
+  text-decoration: none;
+}
+
+/*overlay*/
+.x{
+  width: 1000px;
+  height: 600px;
+  border:solid black;
+}
+
+.x:hover .overlay3{
+
+transform: scale(1);
+}
+.footer a {
+  text-decoration: none;
+}
+.text{
+  width: 100%;
+  height: 75%;
+  /* border: solid red; */
+  font-size: 1.5em;
+  background-color: #ffccff;
+}
+.right{
+  width: 69%;
+  height: 45em;
+ /* border: solid green; */
+  float:left;}
+
+.overlay3{
+  /* text-align: center; */
+  font-size: 5em;
+  color: red;
+  transition: 2s ease;
+  transform: scale(0);
+  box-sizing: border-box;
+  border:solid yellow;
+  position: absolute;
+  background-color: black;
+}
+.right:hover .overlay3{
+transform: scale(1);
+}
+
+@keyframes slide {from{transform: translateX(-40em);} to {transform: translatex(40em);}
+}
+
+.footer{ border: solid blue;
+    width: 30%;
+    height: 7em;
+    font-size: 13px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 0;
+    background-color: #81b59d;
+  }
+
+.animation{
+  width: 100%;
+  height: 10em;
+  animation-name: slide;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+}
+
+ul{
+  padding: 0;
+}

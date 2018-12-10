@@ -1,0 +1,133 @@
+
+
+*{}
+
+h3{
+text-align: center;
+color: black;
+font-size: 4em;
+background-color: #26FED4;
+margin-top: 0;
+margin-bottom: .4em;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+ul{
+  list-style: none;
+  text-align: center;
+  margin-top: 0;
+  top: 0;
+
+}
+
+li{font-family: cursive;
+}
+
+li::before{content: "\2611"}
+.header li::after{content: "\2611"}
+
+.first{
+  float: left;
+}
+
+.header a:hover{
+  border: dashed #B1EA0F;
+  box-shadow: 2px;
+}
+
+.header{
+font-size: 1.5em;
+background-color: #F2f4bf;
+display: grid;
+width: 30%;
+padding-top: 50px;
+padding-bottom: 0px;
+height: 100%;
+float: left;
+border: dotted #B1EA0F;
+border-radius: 3em;
+padding-left: 0;
+padding-right: 0;
+
+}
+
+.header li{
+  padding-bottom: 100px;
+  text-align: center;
+padding-right: 30px;
+font-size: 1.25em;
+
+}
+
+.content{
+  width: 60%;
+  float: left;
+}
+
+@keyframes change{
+  0% {transform: translateX(700px);}
+  100%{transform: translate3d(0px);}
+}
+
+.img1{
+  animation-name: change;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+animation-timing-function: linear;
+}
+
+p::before{
+  content: "\21DC"
+}
+
+p{
+  font-size: 3em;
+  color: #59FF00;
+  transition: 2s;
+  transform: scale(0);
+  box-sizing: border-box;
+  border:solid yellow;
+  position: absolute;
+  background-color: lightyellow;
+  border: none;
+top:50;
+}
+.content2:hover .overlay{
+  transform: scale(1);
+opacity: 0.75;
+}
+
+.img2{
+  width: 100%;
+  height: 30em;
+}
+
+.footer {
+
+}
+
+.footer li{
+  display: inline;
+  padding-right: 2em;
+}
+
+.footer a{
+  color:blue;
+}
+.footer a:hover{
+  background-color: #B1EA0F;
+}
+
+@media screen and (max-width: 1000px){
+  .header{
+    font-size: 1em;
+    }}
+
+  @media screen and (max-width: 600px){
+      .header{
+        font-size: 0.5em;
+        }}

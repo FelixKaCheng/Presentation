@@ -1,0 +1,47 @@
+fieldset{
+  margin: auto;
+  width: 80%;
+  height:10em;
+  background-color: lightblue;
+  color: darkgreen;
+font-size: 1.5em;
+border-radius: 1em;
+box-shadow: 0.5em 0.5em 0.8em lightgreen;
+}
+
+legend{
+color:red;
+background-color: white;
+width: 30%;
+text-align: center;
+border-radius: 0.5em;
+border: solid lightblue;
+height: 2em;
+padding-top: 0.5em;
+}
+
+select{
+font-style: oblique;
+font-size: 1em;
+}
+#order{
+  background-color: red;
+  font-size: 1.1em;
+  color:white;
+  width: 13%;
+  height: 1.3em;
+}
+#order:hover{
+  background-color: white;
+  font-size: 1.2em;
+  font-weight: bolder;
+  width: 13%;
+  color: red;
+  height: 1.5em;
+  box-shadow: 0.2em 0.2em 0.5em black;
+}
+
+input{
+  height: 25px;
+  font-size: 1.2em;
+}
