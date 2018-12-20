@@ -9,9 +9,11 @@ li::before{
   content:'\06DE';
 }
 
-li{list-style-type: none;
-display: inline;
-margin-right:1.5em; }
+li{
+  list-style-type: none;
+  display: inline;
+  margin-right:1.5em;
+}
 
 .navigation{
     width: 100%;

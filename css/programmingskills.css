@@ -44,11 +44,6 @@ padding-right: 2em;
 
 }
 
-.header a:hover{
-  background-color: #00FD86;
-  font-weight: bold;
-}
-
 .footer{
   clear: both;
 background-color: #F2f4bf;
